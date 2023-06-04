@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+  Адаптивная страница для клиента
+  </title>
+  <meta name="HandheldFriendly" content="true">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+    rel="stylesheet">
+  <!-- ====== STYLE.CSS ======  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- ====== BOXICONS CDN ======  -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- ====== SCROLLREVEL CDN ======  -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+  <!-- ====== HEADER ======  -->
+  <header class="header container">
+    <!-- ====== NAVBAR ======  -->
+    <nav class="navbar">
+      <!-- ====== LOGO ======  -->
+      <div class="logo">
+        <img src="./image/logo.png" alt="logo" class="logo-img" />
+      </div>
+      <!-- ====== NAV MENU ======  -->
+      <div class="nav_menu">
+        <ul class="nav_menu_list">
+          <li class="nav_menu_list_item">
+            <a href="#features" class="nav_link">проекты</a>
+          </li>
+          <li class="nav_menu_list_item">
+            <a href="#blog" class="nav_link">услуги</a>
+          </li>
+          <li class="nav_menu_list_item">
+            <a href="#testimonials" class="nav_link">отзывы</a>
+          </li>
+          <li class="nav_menu_list_item">
+            <a href="#faq" class="nav_link">вопросы</a>
+          </li>
+        </ul>
+      </div>
+      <!-- ====== NAV MENU BUTTON ======  -->
+      <button class="nav_menu_btn">
+        <i class="bx bx-menu bx-sm"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ====== HERO ======  -->
+  <main class="hero container">
+    <!-- ====== BLUR BACKGROUND ELEMETS ======  -->
+    <div class="blur_bg_element element--top"></div>
+    <div class="blur_bg_element element--right"></div>
+
+    <!-- ====== HERO INFO ======  -->
+
+    <section class="hero__info">
+      <!-- ====== HERO HEADLINE ======  -->
+      <h1 class="hero__headline">
+        Уникальный сайт<br />
+        Вашего бизнеса<span>.</span>
+      </h1>
+      <!-- ====== HERO SUBTITLE ======  -->
+      <p class="hero__subtitle">
+        Упакуем ваш проект от идеи до реализации. Поможем правильно донести смыслы до ваших клиентов, раскрыв всю его
+        ценность и значимость. Сэкономим ваше время, благодаря использованию передовых технологий и сильной команде
+      </p>
+      <!-- ====== GET STARTED BUTTON ======  -->
+
+      <a href="applications.html" class="get_started_btn btn modalbox">Обсудить проект</a>
+
+      <!-- ====== STATS WRAPPER ======  -->
+      <div class="stats_wrapper">
+        <div class="stats">
+          <p class="stats_count">15 лет</p>
+          <p class="stats_about">Опыта</p>
+        </div>
+        <div class="stats">
+          <p class="stats_count">250</p>
+          <p class="stats_about">Проектов в портфолио</p>
+        </div>
+        <div class="stats">
+          <p class="stats_count">+ 5 000 000</p>
+          <p class="stats_about">Пользователей посещают наши сайты</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero_img">
+      <img src="./image/building-removebg.png" alt="hero_img" />
+    </section>
+
+    <div class="blur_bg_element element--bottom"></div>
+  </main>
+
+  <!-- ====== FEATURED WRAPPER ======  -->
+  <section class="featured_wrapper">
+    <div class="container-md featured">
+      <p>Наши клиенты</p>
+      <!-- ====== FEATURED LIST ======  -->
+      <ul class="featured_list">
+        <!-- ====== FEATURED LIST ITEM ======  -->
+        <li class="featured_list_item">
+          <a href="http://www.sberbank.ru" target="_blank">
+            <img src="./image/brand_logo_1.png" alt="brand_logo_1" />
+          </a>
+        </li>
+        <li class="featured_list_item">
+          <a href="https://perm.rt.ru" target="_blank">
+            <img src="./image/brand_logo_2.png" alt="brand_logo_2" />
+          </a>
+        </li>
+        <li class="featured_list_item">
+          <a href="https://perm.medsi.ru" target="_blank">
+            <img src="./image/brand_logo_3.png" alt="brand_logo_3" />
+          </a>
+        </li>
+        <li class="featured_list_item">
+          <a href="https://www.pepsico.ru" target="_blank">
+            <img src="./image/brand_logo_4.png" alt="brand_logo_4" />
+          </a>
+        </li>
+        <li class="featured_list_item">
+          <a href="https://дом.рф" target="_blank">
+            <img src="./image/brand_logo_5.png" alt="brand_logo_5" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ====== FEATURES WRAPPER ======  -->
+  <section class="features_wrapper" id="features">
+    <div class="container-md">
+      <p class="features_section_name section_name">Наши проекты</p>
+      <h3 class="features_section_title section_title">
+        Готовые дизайны
+      </h3>
+      <!-- ====== FEATURED CARD WRAPPER ======  -->
+      <div class="features_card_wrapper">
+        <!-- ====== FEATURES CARD ======  -->
+        <div class="features_card">
+          <div class="features_card features--img card__1"></div>
+          <div class="features_content">
+            <form action="https://www.sberbank.com/sberprime/plus" target="_blank">
+              <button class="btn book_now_btn">Открыть</button>
+            </form>
+          </div>
+        </div>
+        <!-- ====== FEATURES CARD ======  -->
+        <div class="features_card">
+          <div class="features_card features--img card__2"></div>
+          <div class="features_content">
+            <form action="https://www.company.rt.ru" target="_blank">
+              <button class="btn book_now_btn">Открыть</button>
+            </form>
+          </div>
+        </div>
+        <!-- ====== FEATURES CARD ======  -->
+        <div class="features_card">
+          <div class="features_card features--img card__3"></div>
+          <div class="features_content">
+            <form action="https://дом.рф" target="_blank">
+              <button class="btn book_now_btn">Открыть</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BLOG WRAPPER ======  -->
+
+  <section class="blog_wrapper" id="blog">
+    <div class="container-md">
+      <!-- ====== BLOG WRAPPER GRID ======  -->
+      <div class="grid">
+        <div>
+          <p class="blog_section_name section_name">услуги</p>
+          <h3 class="blog_section_title section_title">
+            Заказ проекта
+          </h3>
+        </div>
+        <span>
+          Мы постоянно проводим анализ и сравниваем цены на создание сайта среди наших конкурентов и готовы
+          предложить комплексные решения, которые оптимально подойдут для всех направлений!
+        </span>
+
+        <!-- ====== BLOG CARD WRAPPER ======  -->
+        <div class="blog_card_wrapper">
+          <!-- ====== BLOG CARD ======  -->
+          <div class="blog_card">
+            <div class="blog_card_img">
+                <a href="https://titan.viita-watches.com/en/" target="_blank">
+                <img src="./image/05.jpg" alt="blog_card_img" />
+              </a>
+            </div>
+            <div class="blog_card_content">
+              <p class="blog_title">
+                Landing page
+              </p>
+              <form action="applications.html" target="_blank">
+              <button class="blog_cta btn">Заказать</button>
+            </form>
+            </div>
+          </div>
+
+          <!-- ====== BLOG CARD ======  -->
+          <div class="blog_card">
+            <div class="blog_card_img">
+              <a href="https://framenoir.com/?" target="_blank">
+              <img src="./image/06.jpg" alt="blog_card_img" />
+            </a>
+            </div>
+            <div class="blog_card_content">
+              <p class="blog_title">
+                Сайт визитка
+              </p>
+              <form action="applications.html" target="_blank">
+                <button class="blog_cta btn">Заказать</button>
+              </form>
+            </div>
+          </div>
+          <!-- ====== BLOG CARD ======  -->
+          <div class="blog_card">
+            <div class="blog_card_img">
+              <a href="https://trainrobber.com" target="_blank">
+              <img src="./image/07.jpg" alt="blog_card_img" />
+            </a>
+            </div>
+            <div class="blog_card_content">
+              <p class="blog_title">
+                Корпоративный сайт
+              </p>
+              <form action="applications.html" target="_blank">
+                <button class="blog_cta btn">Заказать</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS WRAPPER ======  -->
+
+  <section class="testimonials_wrapper" id="testimonials">
+    <div class="container-md">
+      <p class="testimonials_section_name section_name">отзывы</p>
+      <h3 class="testimonials_section_title section_title">
+        Что про нас говорят <br />
+        наши клиенты?
+      </h3>
+      <!-- ====== TESTIMONIALS ======  -->
+      <div class="testimonials">
+        <div class="testimonials_items">
+          <!-- ====== TESTIMONIAL ITEM ======  -->
+          <div class="testimonial_item">
+            <img src="./image/testimonial-1.png" alt="testimonial-1" />
+            <p>
+              Создали сайт для нашего стартапа, всё сделали
+              за минимальные сроки!
+            </p>
+            <p>- Олег Серебской</p>
+          </div>
+          <!-- ====== TESTIMONIAL ITEM ======  -->
+          <div class="testimonial_item">
+            <img src="./image/testimonial-2.png" alt="testimonial-2" />
+            <p>
+              Выслушали наши условия, предложили свои идеи, проектом довольны.
+            </p>
+            <p>- Джессика Альбрам</p>
+          </div>
+          <!-- ====== TESTIMONIAL ITEM ======  -->
+          <div class="testimonial_item">
+            <img src="./image/testimonial-3.png" alt="testimonial-3" />
+            <p>
+              Нам срочно потребовался блок с новостями,
+              сделали очень быстро.
+            </p>
+            <p>- Марк Стрельцов</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== QUESTIONS WRAPPER ======  -->
+  <section class="question_wrapper" id="faq">
+    <div class="container-md container--grid">
+      <!-- ====== QUESTIONS CONTENT ======  -->
+      <div class="question_content">
+        <p class="questions_section_name section_name">Вопросы</p>
+        <h3 class="questions_section_title section_title">
+          Часто задаваемые <br />
+          вопросы
+        </h3>
+        <p class="questions_subtext">
+          В этом разделе собраны ответы, на самые часто задаваемые вопросы.
+        </p>
+      </div>
+      <!-- ====== ACCORDION WRAPPER ======  -->
+      <div class="accordion_wrapper">
+        <!-- ====== FAQ ======  -->
+        <div class="faq">
+          <div class="question">
+            <p>Кто обрабатывает входящие заявки?</p>
+            <span class="icon"><i class="bx bx-chevron-down bx-sm"></i></span>
+          </div>
+          <div class="answer">
+            <p>
+              Выделенный аккаунт-менеджер, курирующий процесс вашего проекта и ответственный за документооборот.
+            </p>
+          </div>
+        </div>
+        <!-- ====== FAQ ======  -->
+        <div class="faq">
+          <div class="question">
+            <p>Могу ли я расчитывать на надёжность своего будующего сайта?</p>
+            <span class="icon"><i class="bx bx-chevron-down bx-sm"></i></span>
+          </div>
+          <div class="answer">
+            <p>
+              Да, можете! Разработчики нашей компании владеют навыками работы с разным ПО, фреймворками и языками
+              программирования – от популярных и простых решений до редких, специализированных инструментов.
+            </p>
+          </div>
+        </div>
+        <!-- ====== FAQ ======  -->
+        <div class="faq">
+          <div class="question">
+            <p>Часто переплачивал за ненужные услуги, у вас также?</p>
+            <span class="icon"><i class="bx bx-chevron-down bx-sm"></i></span>
+          </div>
+          <div class="answer">
+            <p>
+              Мы выбираем инструменты и собираем команду, исходя из потребностей конкретного проекта. Мы не предлагаем
+              «дополнительных услуг», если они не нужны для достижения цели.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GET STARTED CALL TO ACTION ======  -->
+  <section class="get_started_cta">
+    <div class="container-md">
+      <div class="get_started_content">
+        <h2>Начните вместе с нами!</h2>
+        <p>
+          Оставьте заявку,
+          и мы поможем создать проект вашей мечты!
+        </p>
+        <form action="applications.html" target="_blank">
+        <button class="btn get_started_btn">Оставить заявку</button>
+      </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER MENU WRAPPER ======  -->
+  <section class="footer_wrapper">
+    <div class="container-md">
+      <!-- ====== FOOTER ======  -->
+      <div class="footer">
+        <div class="footer_brand">
+          <img src="./image/logo.png" alt="logo" />
+
+        </div>
+        <!-- ====== FOOTER MENU ======  -->
+        <div class="footer_menu">
+          <p class="footer_menu_title">Проекты</p>
+          <a href="#features" class="footer_menu_link">Дизайны</a>
+        </div>
+        <!-- ====== FOOTER MENU ======  -->
+        <div class="footer_menu">
+          <p class="footer_menu_title">Услуги</p>
+          <a href="#blog" class="footer_menu_link">Заказать</a>
+        </div>
+        <!-- ====== FOOTER MENU ======  -->
+        <div class="footer_menu">
+          <p class="footer_menu_title">Отзывы</p>
+          <a href="#testimonials" class="footer_menu_link">О нас</a>
+        </div>
+        <!-- ====== FOOTER MENU ======  -->
+        <div class="footer_menu">
+          <p class="footer_menu_title">Вопросы</p>
+          <a href="#faq" class="footer_menu_link">Ответы</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER COPYRIGHT ======  -->
+  <footer>
+    <span>&copy; 2023 A <a href="https://vk.com/akoola_4r" target="_blank">Troshkov Ivan</a> Productions</span>
+  </footer>
+  <!-- ====== GSAP CDN  ======  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <!-- ====== SCRIPT.JS ======  -->
+  <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>

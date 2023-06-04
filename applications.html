@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Оставить заявку</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Адрес</div>
+            <div class="text-one">г. Пермь</div>
+            <div class="text-two">ул. Стахановская, 54, этаж 4, литер Б, помещ. 10, офис 412</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Телефон</div>
+            <div class="text-one">8-342-277-01-20</div>
+            <div class="text-two">8-952-641-51-66</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">info@galagodigital.ru</div>
+            <div class="text-two">akoola4@mail.ru</div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Отправьте нам сообщение</div>
+          <p>
+            Если у вас есть какие-то вопросы или предложения по созданию собственного проекта, то заполните форму ниже:
+          </p>
+          <form action="check.php" method="post">
+            <div class="input-box">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Ваше имя" />
+            </div>
+            <div class="input-box">
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Введите телефон" />
+              </div>
+            <div class="input-box">
+              <input type="text" class="form-control" name="email" id="email" placeholder="Введите email" />
+            </div>
+            <div class="input-box message-box">
+              <textarea type="text" class="form-control" name="msg" id="msg" placeholder="Введите сообщение"></textarea>
+            </div>
+            <div class="button">
+              <input type="submit"  value="Отправить" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>  
+    <script
+      src="https://kit.fontawesome.com/fce9a50d02.js"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
